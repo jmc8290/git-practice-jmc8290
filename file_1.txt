@@ -1,3 +1,5 @@
 This is my first file
 
-This is a new line of text
+
+
+This is a new, modified line that comes after some brand new whitespace (bad practice!)
