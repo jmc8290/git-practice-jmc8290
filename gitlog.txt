@@ -1,0 +1,15 @@
+2b51eaa Merge pull request #2 from meaganbolton/feature-meaganbolton
+7368094 add Meagans file
+90a4d39 Merge pull request #1 from dylanbay11/feature-dylanbay11
+defcfbf I changed file_1 with some new whitespace as well
+dbd734f merge main and features
+211e9f7 git merge practice sidebranch
+7750187 merge conflict practice
+0dc7c75 merge main and feature
+b53f8db add new text to file_1
+894d5df add text to new_features.txt
+476e90c add empty file
+8c5c106 Change files 1 and 2
+5ed4478 Create .gitignore
+2d66384 renamed file
+520d11d added file 1

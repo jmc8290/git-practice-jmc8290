@@ -1,0 +1,107 @@
+    3  git --version
+    4  git config --global user.name "James Christensen"
+    5  git config --global user.email "jmc8290@gmail.com"
+    6  git config --global core.editor "code --wait"
+    7  git config --global init.defaultBranch main
+   13  cd gitPracticeJMC/
+   16  git add file1.txt
+   17  git status
+   18  git commit -m "added file 1"
+   19  git status
+   21  git log
+   24  git status
+   25  git add .
+   26  git commit "renamed file
+   28  git commit "renamed file"
+   29  git commit -m "renamed file"
+   30  git log
+   38  cd gitPracticeJMC/
+   39  nano .gitignor
+   41  nano .gitignore
+   42  nano .gitignore
+   44  nano .gitignore
+   45  git add .gitignore
+   46  git commit -m 'Create .gitignore'
+   50  git log
+   52  git status
+   53  git add file_1.txt 
+   54  git commit
+   55  git commit 'Edit file_1.txt'
+   56  git commit all 'Edit file_1.txt
+   58  git commit all 'Edit file_1.txt'
+   59  git commit -a 'Edit file_1.txt'
+   60  git commit . 'Edit file_1.txt'
+   61  git commit
+   62  git commit --wait
+   63  git status
+   64  git add file_2.txt
+   65  git commit
+   66  git commit -m 'Change files 1 and 2'
+   69  git status
+   70  git branch features
+   71  git checkout features
+   72  git log
+   74  git add new_features.txt 
+   75  git commit -m 'add empty file'
+   77  git add new_features.txt 
+   78  git commit -m 'add text to new_features.txt'
+   79  git checkout main
+   80  git log
+   82  git add file_1.txt 
+   83  git commit -m 'add new text to file_1'
+   85  git merge feature
+   86  git merge features
+   87  git status
+   88  git commit -m 'merge main and feature'
+   97  cd gitPracticeJMC/
+  103  git remote add origin git@github.com:jmc8290/git-practice-jmc8290.git
+  104  git push -u origin main
+  106  cd Documents/Факултет/Статистике/386/gitPracticeJMC/
+  108  git status
+  109  git log
+  111  git add new_features.txt 
+  112  git commit -m 'merge conflict practice'
+  113  git checkout features
+  115  git add
+  116  git add new_features.txt 
+  117  git commit -m 'git merge practice sidebranch'
+  118  git checkout main
+  119  git merge features
+  120  git merge features
+  121  git commit -m 'merge main and features'
+  122  git branch --delete features
+  123  git push origin main
+  125  cd gitPractice1Classmate/
+  128  mkdir gitpracticeclassmate2
+  129  cd gitpracticeclassmate2/
+  130  git clone git@github.com:jmc8290/git-practice-dylanbay11.git
+  131  git checkout -b feature-jmc8290
+  132  git init
+  133  git checkout -b feature-jmc8290
+  135  cd git-practice-dylanbay11/
+  136  git checkout -b feature-jmc8290
+  138  git add new_features.txt 
+  139  git commit -m 'change text of new_features.txt'
+  140  git push origin feature-jmc8290
+  144  cd gitPracticeJMC/
+  145  git pull
+  150  cd gitPracticeJMC/
+  151  cat .gitignore 
+  158  git clone git@github.com:jmc8290/git-practice-meaganbolton.git
+  160  git checkout -b myBranch
+  161  git init
+  163  cd git-practice-meaganbolton/
+  165  git checkout -b myBranch
+  166  git checkout main
+  167  git checkout master
+  168  git branch -m myBranch jamesChristensen
+  169  git checkout jamesChristensen 
+  171  git add newestFile.txt 
+  172  git commit -m 'add newestFile.txt'
+  173  git checkout master
+  174  git branch -m jamesChristensen feature-James
+  175  git push origin feature-James
+  178  cd gitPracticeJMC/
+  179  git pull
+  181  git log --oneline > gitlog.txt
+  182  history | grep git > history.txt
